@@ -1,8 +1,9 @@
 package org.kdt.mooluck.elder.controller;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
-import org.kdt.mooluck.elder.dto.ElderDTO;
-import org.kdt.mooluck.elder.service.ElderService;
+
+import org.kdt.mooluck.domain.elder.dto.ElderDTO;
+import org.kdt.mooluck.domain.elder.service.ElderService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
